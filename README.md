@@ -1,8 +1,3 @@
-# blank
+# Payload CMS for Archer Finch Legal
 
-blank
-
-## Attributes
-
-- **Database**: mongodb
-- **Storage Adapter**: localDisk
+- Fresh installation of Payload after everything crashed :-(
