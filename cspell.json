@@ -1,3 +1,4 @@
 {
-  "words": ["devsafe", "importmap"]
+  "words": ["devsafe", "importmap"],
+  "ignorePaths": ["**.sql"]
 }
