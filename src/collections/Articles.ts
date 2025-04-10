@@ -14,7 +14,6 @@ export const Articles: CollectionConfig = {
     {
       name: 'slug',
       type: 'text',
-      minLength: 5,
       maxLength: 100,
       admin: {
         description: 'Lowercase letters, numbers and dashes only.',
@@ -64,8 +63,14 @@ export const Articles: CollectionConfig = {
       required: true,
     },
     {
-      name: 'includeInFooter',
-      label: 'Include in footer',
+      name: 'policyPage',
+      label: "Include in footer under 'Policies'",
+      type: 'checkbox',
+      defaultValue: false,
+    },
+    {
+      name: 'companyPage',
+      label: "Include in footer under 'Company'",
       type: 'checkbox',
       defaultValue: false,
     },
