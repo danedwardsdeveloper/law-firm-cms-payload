@@ -34,8 +34,8 @@ services:
       POSTGRES_HOST_AUTH_METHOD: trust
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - ./create-dan-user.sql:/docker-entrypoint-initdb.d/1-create-dan-user.sql
-      - ./law_firm_backup.sql:/docker-entrypoint-initdb.d/law_firm_backup.sql
+      # - ./create-dan-user.sql:/docker-entrypoint-initdb.d/1-create-dan-user.sql
+      # - ./law_firm_backup.sql:/docker-entrypoint-initdb.d/law_firm_backup.sql
     ports:
       - '5432:5432'
 
